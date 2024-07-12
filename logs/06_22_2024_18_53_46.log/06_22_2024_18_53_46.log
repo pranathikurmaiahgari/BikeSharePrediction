@@ -1,0 +1,3 @@
+[ 2024-06-22 18:53:48,653 ] 25 root - INFO - Data Ingestion method starts
+[ 2024-06-22 18:53:48,654 ] 52 root - INFO - Error occured in Data Ingestion config
+[ 2024-06-22 18:53:48,654 ] 19 root - ERROR - Error occurred during training pipeline execution: cannot unpack non-iterable NoneType object

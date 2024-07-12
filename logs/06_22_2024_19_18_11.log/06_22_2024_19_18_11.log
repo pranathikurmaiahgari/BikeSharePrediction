@@ -1,0 +1,28 @@
+[ 2024-06-22 19:18:13,204 ] 20 root - INFO - Data Ingestion method starts
+[ 2024-06-22 19:18:13,209 ] 23 root - INFO - Dataset read as pandas DataFrame
+[ 2024-06-22 19:18:13,215 ] 27 root - INFO - Raw data saved at artifacts\raw.csv
+[ 2024-06-22 19:18:13,215 ] 29 root - INFO - Train test split
+[ 2024-06-22 19:18:13,223 ] 35 root - INFO - Ingestion of data is completed
+[ 2024-06-22 19:18:13,247 ] 84 root - INFO - Read train and test data completed
+[ 2024-06-22 19:18:13,253 ] 85 root - INFO - Train Dataframe Head : 
+   instant      dteday  season  yr  mnth  holiday   weekday  workingday weathersit      temp     atemp       hum  windspeed  casual  registered   cnt
+0      224  2011-08-12    fall   0     8        0    friday           1      clear  0.708333  0.654042  0.415000   0.125621    1051        3854  4905
+1      685  2012-11-15  winter   1    11        0  thursday           1       mist  0.321667  0.324492  0.620417   0.152987     320        5125  5445
+2      686  2012-11-16  winter   1    11        0    friday           1      clear  0.345000  0.347204  0.524583   0.171025     484        5214  5698
+3      164  2011-06-13  summer   0     6        0    monday           1      clear  0.635000  0.601654  0.494583   0.305350     863        4157  5020
+4      395  2012-01-30  spring   1     1        0    monday           1      clear  0.269167  0.262625  0.400833   0.215792     126        3498  3624
+[ 2024-06-22 19:18:13,257 ] 86 root - INFO - Test Dataframe Head  : 
+   instant      dteday  season  yr  mnth  holiday   weekday  workingday weathersit      temp     atemp       hum  windspeed  casual  registered   cnt
+0      704  2012-12-04  winter   1    12        0   tuesday           1      clear  0.475833  0.469054  0.733750   0.174129     551        6055  6606
+1       34  2011-02-03  spring   0     2        0  thursday           1      clear  0.186957  0.177878  0.437826   0.277752      61        1489  1550
+2      301  2011-10-28  winter   0    10        0    friday           1       mist  0.330833  0.318812  0.585833   0.229479     456        3291  3747
+3      457  2012-04-01  summer   1     4        0    sunday           0       mist  0.425833  0.417287  0.676250   0.172267    2347        3694  6041
+4      634  2012-09-25  winter   1     9        0   tuesday           1      clear  0.550000  0.544179  0.570000   0.236321     845        6693  7538
+[ 2024-06-22 19:18:13,257 ] 88 root - INFO - Obtaining preprocessing object
+[ 2024-06-22 19:18:13,257 ] 36 root - INFO - Data Transformation initiated
+[ 2024-06-22 19:18:13,257 ] 46 root - INFO - Pipeline Initiated
+[ 2024-06-22 19:18:13,275 ] 109 root - INFO - Applying preprocessing object on training and testing datasets.
+[ 2024-06-22 19:18:13,277 ] 120 root - INFO - Processsor pickle in created and saved
+[ 2024-06-22 19:18:13,277 ] 27 root - INFO - Splitting Dependent and Independent variables from train and test data
+[ 2024-06-22 19:18:13,298 ] 46 root - INFO - Model Report : {'LinearRegression': 0.8231919187657247, 'Lasso': 0.8232023321501525, 'Ridge': 0.8232154190587613, 'Elasticnet': 0.7374327941939487, 'DecisionTree': 0.8054665153178265}
+[ 2024-06-22 19:18:13,299 ] 59 root - INFO - Best Model Found , Model Name : Ridge , R2 Score : 0.8232154190587613

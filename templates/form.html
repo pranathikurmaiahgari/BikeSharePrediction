@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Sharing Data Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: block;
+            height: 100vh;
+        }
+
+       .form-container {
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+       .form-center {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+       .form-center h1 {
+            margin-top: 300px;
+        }
+
+       .form-center form {
+            margin-top: 20px;
+        }
+
+       .form-center form input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+       .form-center form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+       .form-center form button:hover {
+            background-color: #0056b3;
+        }
+
+        h2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-center">
+            <h1>Bike Sharing Data Prediction</h1>
+            <form action="{{ url_for('predict_datapoint') }}" method="post">
+                <input type="text" name="instant" placeholder="Instant" required="required"><br>
+                <input type="text" name="dteday" placeholder="Date (YYYY-MM-DD)" required="required"><br>
+                <input type="text" name="season" placeholder="Season" required="required"><br>
+                <input type="text" name="yr" placeholder="Year" required="required"><br>
+                <input type="text" name="mnth" placeholder="Month" required="required"><br>
+                <input type="text" name="holiday" placeholder="Holiday" required="required"><br>
+                <input type="text" name="weekday" placeholder="Weekday" required="required"><br>
+                <input type="text" name="workingday" placeholder="Working Day" required="required"><br>
+                <input type="text" name="weathersit" placeholder="Weather Situation" required="required"><br>
+                <input type="text" name="temp" placeholder="Temperature" required="required"><br>
+                <input type="text" name="atemp" placeholder="Apparent Temperature" required="required"><br>
+                <input type="text" name="hum" placeholder="Humidity" required="required"><br>
+                <input type="text" name="windspeed" placeholder="Windspeed" required="required"><br>
+                <input type="text" name="casual" placeholder="Casual Users" required="required"><br>
+                <input type="text" name="registered" placeholder="Registered Users" required="required"><br>
+                <button type="submit">Predict</button>
+            </form>
+            <h2>
+                The Prediction Result is {{final_result}}
+            </h2>
+        </div>
+    </div>
+</body>
+</html>

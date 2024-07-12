@@ -1,0 +1,15 @@
+[ 2024-06-22 19:43:03,101 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-06-22 19:43:03,116 ] 97 werkzeug - INFO -  * Debugger PIN: 799-842-269
+[ 2024-06-22 19:43:06,397 ] 87 root - INFO - Dataframe gathered
+[ 2024-06-22 19:43:06,542 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:43:06] "POST /predict HTTP/1.1" 200 -
+[ 2024-06-22 19:43:48,533 ] 87 root - INFO - Dataframe gathered
+[ 2024-06-22 19:43:48,542 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:43:48] "POST /predict HTTP/1.1" 200 -
+[ 2024-06-22 19:45:24,291 ] 87 root - INFO - Dataframe gathered
+[ 2024-06-22 19:45:24,325 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:45:24] "POST /predict HTTP/1.1" 200 -
+[ 2024-06-22 19:46:01,127 ] 87 root - INFO - Dataframe gathered
+[ 2024-06-22 19:46:01,138 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:46:01] "POST /predict HTTP/1.1" 200 -
+[ 2024-06-22 19:46:25,859 ] 87 root - INFO - Dataframe gathered
+[ 2024-06-22 19:46:25,866 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:46:25] "POST /predict HTTP/1.1" 200 -
+[ 2024-06-22 19:46:32,784 ] 87 root - INFO - Dataframe gathered
+[ 2024-06-22 19:46:32,793 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:46:32] "POST /predict HTTP/1.1" 200 -
+[ 2024-06-22 19:54:35,797 ] 97 werkzeug - INFO -  * Detected change in 'c:\\users\\kurma\\desktop\\bikesharingprediction\\application.py', reloading

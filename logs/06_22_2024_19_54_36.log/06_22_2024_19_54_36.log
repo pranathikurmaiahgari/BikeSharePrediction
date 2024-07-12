@@ -1,0 +1,3 @@
+[ 2024-06-22 19:54:38,215 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-06-22 19:54:38,235 ] 97 werkzeug - INFO -  * Debugger PIN: 799-842-269
+[ 2024-06-22 19:56:22,693 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\kurma\\Desktop\\BikeSharingPrediction\\application.py', reloading

@@ -1,0 +1,47 @@
+[ 2024-07-12 09:51:05,380 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-07-12 09:51:05,392 ] 97 werkzeug - INFO -  * Debugger PIN: 887-786-766
+[ 2024-07-12 09:51:26,205 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 09:51:26] "GET / HTTP/1.1" 200 -
+[ 2024-07-12 09:51:26,254 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 09:51:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-07-12 09:51:45,952 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 09:51:45] "[33mGET /predictdata HTTP/1.1[0m" 404 -
+[ 2024-07-12 09:51:53,406 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 09:51:53] "[33mGET /predictdata HTTP/1.1[0m" 404 -
+[ 2024-07-12 09:52:03,569 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 09:52:03] "GET /predict HTTP/1.1" 200 -
+[ 2024-07-12 09:53:06,653 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 09:53:07,135 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 09:53:07] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 09:54:26,170 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 09:54:26,185 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 09:54:26] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 09:55:12,458 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 09:55:12,481 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 09:55:12] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:02:26,245 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:02:26,260 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:02:26] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:02:46,121 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:02:46,133 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:02:46] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:11:12,301 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:11:12,312 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:11:12] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:12:44,278 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:12:44,290 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:12:44] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:14:53,943 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:14:53,952 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:14:53] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:15:01,629 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:15:01,636 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:15:01] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:16:25,962 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:16:25,991 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:16:25] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:16:37,507 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:16:37,517 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:16:37] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:19:24,595 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:19:24,606 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:19:24] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:21:24,146 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:21:24,157 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:21:24] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:27:11,908 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:27:11,918 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:27:11] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:28:25,724 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:28:25,737 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:28:25] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:28:47,275 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:28:47,288 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:28:47] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:29:04,369 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:29:04,381 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:29:04] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:29:09,038 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:29:09,045 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:29:09] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:29:40,293 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:29:40,306 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:29:40] "POST /predict HTTP/1.1" 200 -
+[ 2024-07-12 10:30:48,225 ] 87 root - INFO - Dataframe gathered
+[ 2024-07-12 10:30:48,235 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2024 10:30:48] "POST /predict HTTP/1.1" 200 -
